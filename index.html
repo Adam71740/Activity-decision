@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Selector</title>
+
+    <!-- Google Font (external library) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Container for the app (Main) -->
+<div class="box">
+    <!-- Title -->
+    <h1>Activity Selector</h1>
+
+    <!-- Instructions - Description -->
+    <p>For those who dosent know what to do in this specific moment - Select options below to get a suggested activity!</p>
+
+    <!-- Label and to select dropdown for number of people (accessibility friendly) -->
+    <label for="people">Number of people:</label>
+    <select id="people">
+        <option value="">-- choose --</option>
+        <option value="1">1</option>
+        <option value="2">2–4</option>
+        <option value="3">5+</option>
+    </select>
+
+    <!-- Label and to select dropdown for available time -->
+    <label for="time">Time available:</label>
+    <select id="time">
+        <option value="">-- choose --</option>
+        <option value="kort">Short</option>
+        <option value="medel">Medium</option>
+        <option value="lang">Long</option>
+    </select>
+
+    <!-- Label and to select dropdown for energy level -->
+    <label for="energy">Energy level:</label>
+    <select id="energy">
+        <option value="">-- choose --</option>
+        <option value="low">Low</option>
+        <option value="mid">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <!-- triggers activity suggestion -->
+    <button id="btn">Show activity</button>
+
+    <!-- Result -->
+    <div id="result"></div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

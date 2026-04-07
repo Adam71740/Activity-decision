@@ -1,0 +1,47 @@
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #121212);
+    color: white;
+    margin: 0;
+}
+
+/* Main container box styling */
+.box {
+    max-width: 420px;
+    margin: 60px auto;
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* subtle shadow */
+}
+
+/*For dropdowns and button*/
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Button specific styling */
+button {
+    background-color: #00adb5;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+
+button:hover {
+    background-color: #007b80;
+}
+
+/* Result div styling */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    min-height: 40px; /* reserve space even when empty just in case */
+}
