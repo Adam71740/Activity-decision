@@ -37,4 +37,5 @@ Jag testade webbplatsen genom att:
 
 ## Länk
 GitHub Pages-länk:  
-[how to do it actually](https://github.com/Adam71740/Activity-decision.git)
+
+[adam71740.github.io/](https://adam71740.github.io/)
